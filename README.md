@@ -1,5 +1,14 @@
 # google-translate-cn-api
 
+## 记录
+
+https://translate.google.cn 网址已从国内下线。使用需要更改为https://translate.google.com
+
+```
+详见：example.js 28-31
+```
+
+
 ## 功能
 
 - node.js 实现谷歌翻译 api

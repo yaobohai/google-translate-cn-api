@@ -30,7 +30,7 @@ const translate = require('./');
    * cn => https://translate.google.cn
    * hk => https://translate.google.hk
    */
-  await translate('hello world', { to: 'zh-cn', domain: 'cn' })
+  await translate('hello world', { to: 'zh-cn', domain: 'com' })
     .then(console.info)
     .catch(console.error);
 })();

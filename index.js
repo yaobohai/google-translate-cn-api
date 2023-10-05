@@ -8,7 +8,7 @@ languages['zh-tw'] = languages['zh-TW'];
 
 module.exports = function translate(text, opts, gotopts) {
   opts = opts || {};
-  opts.tld = 'cn';
+  opts.tld = 'com';
 
   if (opts.domain) opts.tld = opts.domain;
 
